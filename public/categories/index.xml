@@ -31,19 +31,5 @@
 				<guid>http://localhost:1313/categories/intro/</guid>
 				<description></description>
 			</item>
-			<item>
-				<title>Guides</title>
-				<link>http://localhost:1313/categories/guides/</link>
-				<pubDate>Mon, 19 Oct 2026 08:30:00 -0700</pubDate><author>courtneyrowanhenderson@gmail.com (Courtney Henderson)</author>
-				<guid>http://localhost:1313/categories/guides/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Reference</title>
-				<link>http://localhost:1313/categories/reference/</link>
-				<pubDate>Fri, 16 Oct 2026 11:00:00 -0700</pubDate><author>courtneyrowanhenderson@gmail.com (Courtney Henderson)</author>
-				<guid>http://localhost:1313/categories/reference/</guid>
-				<description></description>
-			</item>
 	</channel>
 </rss>

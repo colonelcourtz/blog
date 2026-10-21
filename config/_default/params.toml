@@ -214,3 +214,6 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [advertisement]
   # adsense = ""
+
+[bookshelf]
+  intro = "My cosy repository of unnecessary projects and unexpectedly useful knowledge."

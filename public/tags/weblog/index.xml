@@ -14,15 +14,6 @@
 		
 		
 		
-			<lastBuildDate>Wed, 21 Oct 2026 09:00:00 -0700</lastBuildDate>
-		
 			<atom:link href="http://localhost:1313/tags/weblog/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Why Do I Bodge?</title>
-				<link>http://localhost:1313/posts/welcome-to-the-blog/</link>
-				<pubDate>Wed, 21 Oct 2026 09:00:00 -0700</pubDate><author>courtneyrowanhenderson@gmail.com (Courtney Henderson)</author>
-				<guid>http://localhost:1313/posts/welcome-to-the-blog/</guid>
-				<description></description>
-			</item>
 	</channel>
 </rss>
