@@ -8,6 +8,7 @@
 colorScheme = "blowfish"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
+favicon = "/images/duck.svg"
 
 enableA11y = false
 enableSearch = true
@@ -217,3 +218,4 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [bookshelf]
   intro = "My cosy repository of unnecessary projects and unexpectedly useful knowledge."
+  monogram = "CH"

@@ -1,0 +1,5 @@
+{{- $author := . | default "" }}
+{{- if reflect.IsMap $author }}
+  {{- $author = $author.name | default "" }}
+{{- end }}
+{{- return $author }}
