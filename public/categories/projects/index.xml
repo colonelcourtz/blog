@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Projects on The Art of the Bodge</title>
+		<link>http://localhost:1313/categories/projects/</link>
+		<description>Recent content in Projects on The Art of the Bodge</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 17 Oct 2026 10:15:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Project Log: October</title>
+				<link>http://localhost:1313/posts/project-log-october/</link>
+				<pubDate>Sat, 17 Oct 2026 10:15:00 -0700</pubDate>
+				<guid>http://localhost:1313/posts/project-log-october/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,51 @@
+{{- /* Renders pages as spines on shelves, oldest left to newest right, with a divider for each year */ -}}
+{{- $pages := .ByDate }}
+{{- $cfg := site.Params.bookshelf | default dict }}
+{{- $max := $cfg.maxSpines | default 0 | int }}
+{{- if and (gt $max 0) (gt (len $pages) $max) }}{{ $pages = last $max $pages }}{{ end }}
+{{- $maxH := $cfg.maxHeight | default 370 | int }}
+{{- $year := "" }}
+{{- $n := len $pages }}
+<ul class="shelf" style="--maxh: {{ $maxH }}" aria-label="Bookshelf, oldest to newest">
+    {{- range $i, $p := $pages }}
+    {{- $y := cond $p.Date.IsZero "" ($p.Date.Format "2006") }}
+    {{- if and $y (ne $y $year) }}
+    <li class="slot slot--year"><span class="year">{{ $y }}</span></li>
+    {{- $year = $y }}
+    {{- end }}
+    {{- $last := eq (add $i 1) $n }}
+    <li class="slot">
+        {{- partial "bookshelf/spine.html" (dict "page" $p "new" $last) }}
+        {{- if $last }}<span class="bookend" aria-hidden="true"></span>{{ end }}
+    </li>
+    {{- end }}
+    <li class="slot" style="margin-left: auto; margin-right: -30px; position: relative; z-index: 1;"><span style="position: relative; display: block;"><img src="{{ "images/duck.svg" | relURL }}" alt="" style="display: block; height: calc(80px * var(--s));"><span id="duck-eye" style="position: absolute; left: 20.37%; top: 19.52%; width: 15.08%; height: 14.14%; background: #fff; border-radius: 50%;"><span id="duck-pupil" style="position: absolute; left: 50%; top: 50%; width: 31%; height: 33%; background: #000; border-radius: 50%; transform: translate(-50%, -50%);"></span></span></span></li>
+    <li class="slot"><img src="{{ "images/fern.svg" | relURL }}" alt="" style="height: calc(280px * var(--s));"></li>
+</ul>
+<script>
+var duckIdle;
+document.addEventListener('mousemove', function (e) {
+    var eye = document.getElementById('duck-eye');
+    var pupil = document.getElementById('duck-pupil');
+    var r = eye.getBoundingClientRect();
+    var angle = Math.atan2(e.clientY - (r.top + r.height / 2), e.clientX - (r.left + r.width / 2));
+    var x = Math.cos(angle) * r.width * 0.3;
+    var y = Math.sin(angle) * r.height * 0.3;
+    pupil.style.transform = 'translate(calc(-50% + ' + x + 'px), calc(-50% + ' + y + 'px))';
+    clearTimeout(duckIdle);
+    duckIdle = setTimeout(function () {
+        pupil.style.transform = 'translate(-50%, -50%)';
+    }, 2000);
+});
+document.addEventListener('click', function (e) {
+    if (!e.target.closest('#theme-toggle')) return;
+    var eye = document.getElementById('duck-eye');
+    var pupil = document.getElementById('duck-pupil');
+    eye.style.background = 'linear-gradient(#ff9d00 45%, #000 45%, #000 55%, #ff9d00 55%)';
+    pupil.style.visibility = 'hidden';
+    setTimeout(function () {
+        eye.style.background = '#fff';
+        pupil.style.visibility = 'visible';
+    }, 150);
+});
+</script>
