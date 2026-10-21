@@ -1,0 +1,72 @@
+{{ define "header" }}{{ partial "running_head.html" . }}{{ end }}
+{{ define "main" }}
+{{- $isPost := in site.MainSections .Type }}
+{{- $all := (where site.RegularPages "Type" "in" site.MainSections).ByDate }}
+{{- $n := 0 }}{{ $older := false }}{{ $newer := false }}
+{{- if $isPost }}
+  {{- range $i, $p := $all }}
+    {{- if eq $p $ }}
+      {{- $n = add $i 1 }}
+      {{- if gt $i 0 }}{{ $older = index $all (sub $i 1) }}{{ end }}
+      {{- if lt (add $i 1) (len $all) }}{{ $newer = index $all (add $i 1) }}{{ end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $tags := .GetTerms "tags" }}
+<article class="book">
+    <header class="book__opener">
+        {{- if $isPost }}
+        <p class="kicker kicker--ox">No. {{ $n }}{{ with $tags }} &middot; {{ (index . 0).LinkTitle }}{{ end }}</p>
+        {{- end }}
+        <h1>{{ .Title }}</h1>
+        {{- with .Description }}<p class="book__desc">{{ . | markdownify }}</p>{{ end }}
+        <p class="fleuron" aria-hidden="true">
+            {{ partial "images/duck.svg" . }}
+        </p>
+    </header>
+
+    <div class="prose">
+        {{ .Content }}
+    </div>
+
+    <p class="fleuron" aria-hidden="true">
+            {{ partial "images/duck.svg" . }}
+        </p>
+
+    {{- if $isPost }}
+    <footer class="book__end">
+        <section>
+            <h2 class="kicker">Footer</h2>
+            <p>
+                {{- $author := partial "author-name.html" (.Params.author | default site.Params.author) }}
+                Written by {{ if eq $author (partial "author-name.html" site.Params.author) }}<a href="{{ (site.GetPage "/about").RelPermalink }}">{{ $author }}</a>{{ else }}{{ $author }}{{ end }}.
+                {{- if not .Date.IsZero }} Shelved <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>{{ end }}
+                {{- with $tags }} under {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}{{ end }}.
+                {{ lang.FormatNumber 0 .WordCount }} words.
+            </p>
+        </section>
+        {{- if or $older $newer }}
+        <section>
+            <h2 class="kicker">Next to it on the shelf</h2>
+            <div class="neighbours">
+                {{- with $newer }}<span class="neighbours__label">Newer</span>{{ partial "bookshelf/spine.html" (dict "page" . "flat" true) }}{{ end }}
+                {{- with $older }}<span class="neighbours__label">Older</span>{{ partial "bookshelf/spine.html" (dict "page" . "flat" true) }}{{ end }}
+            </div>
+        </section>
+        {{- end }}
+    </footer>
+    {{- end }}
+
+    {{- if and site.Config.Services.Disqus.Shortname (not (.Params.disableComments | default false)) }}
+    <section class="comments">
+        {{ partial "disqus.html" . }}
+    </section>
+    {{- end }}
+</article>
+<div id="folio" class="folio" hidden aria-hidden="true">page <span data-n>1</span> of <span data-t>1</span></div>
+{{ end }}
+{{ define "scripts" }}
+{{- with resources.Get "js/folio.js" | minify | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end }}
+{{ end }}

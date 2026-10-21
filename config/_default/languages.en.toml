@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Welcome to The Bodge Workshop"
+title = "Welcome to My Bodge Workshop"
 
 [params]
   displayName = "EN"
@@ -14,13 +14,13 @@ title = "Welcome to The Bodge Workshop"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
+[params.author]
+    name = "Courtney Henderson"
+    email = "courtneyrowanhenderson@gmail.com"
+    image = "img/blowfish_logo.png"
+    imageQuality = 96
+    headline = "To bodge is to live"
+#   bio = ""
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

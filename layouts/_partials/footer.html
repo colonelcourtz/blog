@@ -1,0 +1,12 @@
+<footer class="colophon-footer">
+    <div class="wrap colophon-footer__inner">
+        <nav class="colophon-footer__nav" aria-label="Footer">
+            {{- partial "menu.html" . }}
+        </nav>
+        <p>
+            {{- with site.Copyright }}{{ replace . "{year}" (now.Format "2006") | markdownify }}
+            {{- else }}&copy; {{ now.Format "2006" }} <a href="{{ (site.GetPage "/about").RelPermalink }}">{{ partial "author-name.html" site.Params.author }}</a>{{ end }}
+            &middot; <a href="https://github.com/pravin/hugo-theme-bookshelf">Theme Bookshelf</a>
+        </p>
+    </div>
+</footer>
