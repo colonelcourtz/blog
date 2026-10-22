@@ -18,7 +18,7 @@ Or at least, that’s what I thought.
 
 Following my latest foray into the previously (for me) uncharted territory of embedded development, an esteemed colleague and friend asked me a perfectly reasonable question:
 
-"What was my plan when I’d finished it?"
+> "What was my plan when I’d finished it?"
 
 I had no answer.
 
