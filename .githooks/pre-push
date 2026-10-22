@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ "${SKIP_DEPLOY_ON_PUSH:-0}" == "1" ]]; then
+  echo "Skipping deploy hook because SKIP_DEPLOY_ON_PUSH=1"
+  exit 0
+fi
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+echo "Building Hugo site..."
+hugo --gc --minify
+
+echo "Syncing to S3..."
+aws s3 sync public/ s3://applied-bodgery.co.uk --delete
+
+echo "Creating CloudFront invalidation..."
+aws cloudfront create-invalidation --distribution-id E305CTIZ3HK1GO --paths "/*"
+
+echo "Deploy complete."
