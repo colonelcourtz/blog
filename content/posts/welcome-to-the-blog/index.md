@@ -32,7 +32,7 @@ I’d been making things like this for years without ever really questioning wha
 
 Apparently not, in my case.
 
-Somewhere along the way I’d accidentally fallen into the practice that the project itself was the point. The figuring things out. Disappearing down rabbit holes. Learning things I had no practical reason to know. Making mistakes, working out why they were mistakes, and eventually coaxing something into working...then promptly forgetting it all.
+Somewhere along the way I’d accidentally fallen into the practice that the project itself was the point. The figuring things out. Disappearing down rabbit holes. Learning things I had absolutely no reason to know. Making mistakes, working out why they were mistakes, and eventually just about getting something working...then promptly forgetting it all.
 
 The finished object is nice, of course, but it turns out that’s not really why I’m doing it.
 
@@ -52,6 +52,6 @@ So these aren't necessarily tutorials. They are certainly not examples of best p
 
 Think of them more as field notes.
 
-A record of what happens when curiosity, questionable judgement and access to the internet are given sufficient time to interact.
+A record of my explorations into electronics, development, craft, building, woodwork, mechanics, music, games, luthiering, repair, restoration, making things beep, putting computers where computers probably shouldn’t be, and whatever other rabbit holes I happen to fall down.
 
 Consider it a contribution to the emerging field of Applied Bodgery.
