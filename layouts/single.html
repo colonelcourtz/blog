@@ -13,6 +13,21 @@
   {{- end }}
 {{- end }}
 {{- $tags := .GetTerms "tags" }}
+{{- $heroURL := "" }}
+{{- if and $isPost .Params.previewimage }}
+  {{- $heroImage := .Params.previewimage }}
+  {{- if or (hasPrefix $heroImage "http://") (hasPrefix $heroImage "https://") }}
+    {{- $heroURL = $heroImage }}
+  {{- else if hasPrefix $heroImage "/" }}
+    {{- $heroURL = $heroImage | relURL }}
+  {{- else }}
+    {{- with .Resources.GetMatch $heroImage }}
+      {{- $heroURL = .RelPermalink }}
+    {{- else }}
+      {{- $heroURL = $heroImage | relURL }}
+    {{- end }}
+  {{- end }}
+{{- end }}
 <article class="book">
     <header class="book__opener">
         {{- if $isPost }}
@@ -20,6 +35,11 @@
         {{- end }}
         <h1>{{ .Title }}</h1>
         {{- with .Description }}<p class="book__desc">{{ . | markdownify }}</p>{{ end }}
+        {{- with $heroURL }}
+        <figure class="book__hero">
+            <img src="{{ . }}" alt="{{ $.Title }} hero image" loading="eager">
+        </figure>
+        {{- end }}
         <p class="fleuron" aria-hidden="true">
             {{ partial "images/duck.svg" . }}
         </p>

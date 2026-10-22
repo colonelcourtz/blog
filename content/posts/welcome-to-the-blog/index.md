@@ -5,6 +5,7 @@ draft = false
 description = "On pointless projects, useful rabbit holes, and why the making might be the point."
 tags = ["intro"]
 categories = ["General", "intro"]
+previewimage = "hero_desk.jpg"
 +++
 
 Hello world
