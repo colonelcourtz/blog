@@ -22,7 +22,7 @@ I had questions, lots of questions and not many answers:
 
 * How to get the switches to send MIDI messages? 
 * How to use a sensor to change the volume, expression, something else? 
-* How to even fit the components in the concertina form factor
+* How to fit the components in the concertina form factor
 * Or even which type of components to use? 
 
 Luckily I had a completely unsupported confidence that I could make this work.
