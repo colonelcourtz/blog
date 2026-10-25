@@ -62,15 +62,21 @@ While looking into what notes should be where I discovered there are a few types
 
 So I initially configured it instead as a Duet concertina, with each key playing the same note in or out. Without a bellows sensor, it was simply: press button = play a note.
 
-Because everything is controlled by software, I theoreticall _could_ switch between Duet, Anglo, English, whatever. An Anglo concertina is tuned to a given key, such as C/G, G/D or the older C/F, but again, everything being controlled by software meant I could easily switch to any key I wanted.
+Because everything is controlled by software, I theoreticall _could_ switch between Duet, Anglo, English...or make my own up. What's more, an Anglo concertina is tuned to a given key, such as C/G, G/D or the older C/F, but again, everything being controlled by software meant I could easily switch to any key I wanted so I didn't have to choose.
 
-In practice, that meant choosing a different root note before building the button-to-note map. The real firmware has a `ROOT_NOTE` setting; in a simplified version, I could select it from a little lookup:
+In practice, that meant choosing a root note and using it as the starting point for the button-to-note map. Each button's position moves through the scale from that root. In Anglo mode, the bellows direction also changes the scale step, so push and pull play different notes; in my unisonoric setup, direction makes no difference:
 
 ```python
-key = "D"
-root_notes = {"C": 60, "D": 62, "F": 65}  # MIDI note numbers
-root_note = root_notes[key]
+root_note = 62  # D4, as a MIDI note number
+scale_steps = (0, 2, 4, 5, 7, 9, 11)  # Major scale
+
+def note_for_button(position, pull=False, anglo=False):
+    step = 2 * position + int(pull) if anglo else position
+    octave, degree = divmod(step, len(scale_steps))
+    return root_note + 12 * octave + scale_steps[degree]
 ```
+
+Changing the root shifts the whole map into another key; switching the Anglo flag makes each button's push and pull positions map to separate notes.
 
 While I waited for the remaining switches, I wrote a script to pick a bass chord to go with the current melody note from my 10 keys. It keeps the current chord if it still fits; otherwise, it picks the first suitable chord from a priority list. A small side shoot of the rabbit warren I was already miles deep into.
 
@@ -92,9 +98,9 @@ Anyway, my other switches eventually arrived and I wired them up the same way an
 
 ![The microswitches and wiring laid out during the build.](micro-switches.jpg)
 
-I found I liked adding chords to the melody, so I set the left 10 keys to play chords in the same key as the right hand, a bit more like an accordion. This isn't the right setup for a real concertina, but this isn't a real concertina. It's my own thing and it's whatever I want it to be.
+I found I liked the simplicity I'd already introduced of adding chords to the melody, so I set the left 10 keys to play chords in the same key as the right hand, a bit more like an accordion. This isn't the right setup for any real concertina I know of, but this isn't a real concertina. It's my own thing and it's whatever I want it to be.
 
-In the simplest version, each left-hand button gives me a root note, and I build a chord from that: the root, a fifth above it, and the root again an octave higher.
+So each left-hand button gives me a root note, and I build a chord from that: the root, a fifth above it, and the root again an octave higher.
 
 ```python
 def chord_notes(root):
