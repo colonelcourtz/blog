@@ -70,7 +70,7 @@ While looking into what notes should be where I discovered there are a few types
 
 So I initially configured it instead as a Duet concertina, with each key playing the same note in or out. Without a bellows sensor, it was simply: press button = play a note.
 
-Because everything is controlled by software, I theoreticall _could_ switch between Duet, Anglo, English...or make my own up. What's more, an Anglo concertina is tuned to a given key, such as C/G, G/D or the older C/F, but again, everything being controlled by software meant I could easily switch to any key I wanted so I didn't have to choose.
+Because everything is controlled by software, I theoretically _could_ switch between Duet, Anglo, English...or make my own up. What's more, an Anglo concertina is tuned to a given key, such as C/G, G/D or the older C/F, but again, everything being controlled by software meant I could easily switch to any key I wanted so I didn't have to choose.
 
 In practice, that meant choosing a root note and using it as the starting point for the button-to-note map. Each button's position moves through the scale from that root. In Anglo mode, the bellows direction also changes the scale step, so push and pull play different notes; in my unisonoric setup, direction makes no difference:
 
