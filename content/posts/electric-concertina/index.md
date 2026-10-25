@@ -13,7 +13,7 @@ For the low sum of £10 it could be mine. I had no idea how to play it, no idea 
 
 ![The battered concertina before restoration, with its worn red body and leaking bellows.](pre-restoration.jpg)
 
-It came home with me and within a few minutes I'd forced out a rendition of Twinkle Twinkle with only a few missing notes. It was evident at this point that not only was it badly out of tune, but it was missing some of the reeds completely, and the bellows were leaking like a sieve.
+It came home with me and within a few minutes I'd forced out a rendition of Twinkle Twinkle Little Star with only a few missing notes, not due to my bad playing but that it was _literally_ missing some notes. It was evident at this point that not only was it badly out of tune, some of the reeds were either broken or missing, and the bellows were leaking like a sieve.
 
 After a little coaxing and fiddling with some very rusty screws, I'd opened up the body of the concertina and saw some snapped reeds, fairly obvious holes and a lot of dust.
 
@@ -21,7 +21,7 @@ After a little coaxing and fiddling with some very rusty screws, I'd opened up t
 
 Enter bodge #1.
 
-What was I to do about these missing reeds? A quick Google search made it clear this was going to spiral from a fun little project into a significant investment of time and, more importantly, money. All I wanted at this point was to bash out a full version of Twinkle Twinkle Little Star or Hot Cross Buns, with all the notes.
+What was I to do about these missing reeds? A quick Google search made it clear this was going to spiral from a fun little project into a significant investment of time and, more importantly, money. All I wanted at this point was to bash out a full version of Mary Had a Little Lamb or Hot Cross Buns, with all the notes.
 
 If I couldn't feasibly get concertina reeds, what else could I use? I looked around the house and came across my old harmonica. I thought to myself, huh, that uses reeds, and they look pretty similar. How different can they be? (Turns out, a bit.)
 
