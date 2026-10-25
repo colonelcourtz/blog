@@ -9,7 +9,7 @@ categories = ["Projects"]
 
 This journey started back in March 2024, walking past a vintage junk shop when a battered and broken concertina caught my eye.
 
-For the low sum of £10 it could be mine. I had no idea how to play it, no idea if it worked and, and no idea how to fix it if it was broken. But like all these projects, that was no reason to abandon the idea.
+For the low sum of £10 it could be mine. I had no idea how to play it, no idea if it worked and, and no idea how to fix it if it was broken. But it looked like a fun challenge.
 
 ![The battered concertina before restoration, with its worn red body and leaking bellows.](pre-restoration.jpg)
 
