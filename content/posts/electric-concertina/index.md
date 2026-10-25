@@ -40,7 +40,7 @@ After a lot of blowing through small sharp bits of metal to find the right notes
 
 A bit more research and reading of some very helpful Reddit posts on tuning reed instruments like this and I found that to raise the pitch I had to remove some of the material from the end of the reed, and to lower the pitch I had to add some. Again, it seemed simple enough in theory. For all the flat notes I filed off a little metal at a time and used a tuning app on my phone to check. For all the sharp notes I added a little metal by melting a little solder to the tip of the reed, then tweaked by adding and removing until the note was right.
 
-There was something pleasingly simple about the tuning: too much of something, take a little away; too little, add some back. No complex problem to solve, just trial and error. Like most things there was no moment where it suddenly became right, just lots of moments where it became slightly less wrong.
+There was something pleasingly simple about the tuning: too much of something, take a little away; too little, add some back. No complex problem to solve, just trial and error. Like most things in life there was no moment where it suddenly became right, just lots of moments where it became slightly less wrong.
 
 And hey presto, a semi-working concertina. All the notes there, all in tune. The only problems were that the harmonica reeds sounded a little 'tinny' and too much pressure in the bellows made them badly distort. Obviously the harmonica reeds were never intended for the pressure provided by a set of concertina bellows but for now it was close enough.
 
