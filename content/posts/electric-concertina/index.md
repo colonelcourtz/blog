@@ -1,8 +1,8 @@
 +++
-title = "A Tenner, a Concertina and a Harmonica"
+title = "01. The £10 Concertina"
 date = 2026-10-22T11:00:00-07:00
 draft = false
-description = "A £10 concertina, a charity-shop harmonica, and the first bodge in a longer project."
+description = "A broken concertina, a charity-shop harmonica, and the first bodge in a longer project."
 tags = ["concertina", "repair", "bodge"]
 categories = ["Projects"]
 +++

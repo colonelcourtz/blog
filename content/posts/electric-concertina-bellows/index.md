@@ -1,9 +1,9 @@
 +++
-title = "Putting the Bellows Back into the Concertina"
+title = "03. Putting the Bellows Back into the Concertina"
 date = 2026-10-24T11:00:00-07:00
 draft = false
 description = "Adding pressure sensing, expression and a little bit of pipe organ to my homemade MIDI concertina."
-tags = ["concertina", "MIDI", "electronics"]
+tags = ["concertina", "MIDI", "electronics", "circuitPython", "code"]
 categories = ["Projects"]
 +++
 

@@ -1,9 +1,9 @@
 +++
-title = "Turning a Concertina into a MIDI Instrument"
+title = "02. Turning a Concertina into a MIDI Instrument"
 date = 2026-10-23T11:00:00-07:00
 draft = false
 description = "Replacing the concertina's leaky musical innards with micro switches, a Raspberry Pi Pico 2 and MIDI."
-tags = ["concertina", "MIDI", "electronics"]
+tags = ["concertina", "MIDI", "electronics", "circuitPython", "code"]
 categories = ["Projects"]
 +++
 
