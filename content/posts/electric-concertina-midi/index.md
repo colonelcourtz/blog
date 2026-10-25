@@ -17,7 +17,15 @@ After a few weeks of playing around with this a thought struck me. I had spotted
 
 The plan took shape: swap out the valve-opening keys for micro switches, remove the reeds and add some kind of pressure sensor for the bellows. How hard could *that* be? (Turns out, a lot)
 
-How to get the switches to send MIDI messages? How to use a sensor to change the volume, expression, something else? How to even fit the components in the concertina form factor, or even which type of components to use? Lots of questions and not many answers, but I had a completely unsupported confidence that I could make this work.
+
+I had questions, lots of questions and not many answers:
+
+* How to get the switches to send MIDI messages? 
+* How to use a sensor to change the volume, expression, something else? 
+* How to even fit the components in the concertina form factor
+* Or even which type of components to use? 
+
+Luckily I had a completely unsupported confidence that I could make this work.
 
 I checked online for similar projects, but found only one or two videos demonstrating some home-made electric accordions, with no detail about how they worked or how to begin doing the same myself. 
 
