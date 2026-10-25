@@ -86,6 +86,8 @@ def note_for_button(position, pull=False, anglo=False):
 
 Changing the root shifts the whole map into another key; switching the Anglo flag makes each button's push and pull positions map to separate notes.
 
+I could even switch between major and minor keys. Or Dorian? Phrygian? Lydian? Mixolydian? Locrian?
+
 While I waited for the remaining switches, I wrote a script to pick a bass chord to go with the current melody note from my 10 keys. It keeps the current chord if it still fits; otherwise, it picks the first suitable chord from a priority list. A small side shoot of the rabbit warren I was already miles deep into.
 
 In simplified form, the auto-bass checks whether the melody note belongs to the current chord, then tries the other chords in order. If none fit, it falls back to the current chord or the first one in the list:
