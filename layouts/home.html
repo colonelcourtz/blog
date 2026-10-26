@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{- $posts := where site.RegularPages "Type" "in" site.MainSections }}
+{{- $paginator := .Paginate $posts.ByDate.Reverse }}
+<div class="wrap">
+    {{- if eq $paginator.PageNumber 1 }}
+    {{- $n := len $posts }}
+    <section class="library {{ if gt $n 8 }}library--large{{ end }}" aria-labelledby="library-title">
+        <div class="library__intro">
+            <h1 id="library-title">{{ site.Params.tagline | default site.Title }}</h1>
+            <p>{{ $n }} {{ cond (eq $n 1) "piece" "pieces" }} on the shelf. {{ site.Params.bookshelf.intro | default "Each spine is as thick as the piece is long and coloured by its subject. Pull one out to read it." }}</p>
+        </div>
+        <div class="library__shelf">
+            {{- partial "bookshelf/shelf.html" $posts }}
+        </div>
+    </section>
+    {{- end }}
+
+    <div class="split">
+        <section class="split__main" aria-labelledby="catalogue-title">
+            <h2 class="kicker" id="catalogue-title">Catalogue</h2>
+            {{- partial "bookshelf/catalogue.html" $paginator.Pages }}
+            {{- partial "pagination.html" $paginator }}
+        </section>
+        <aside class="split__aside">
+            {{- with site.Taxonomies.tags }}
+            <h2 class="kicker">Subjects</h2>
+            {{- partial "bookshelf/subjects.html" (site.Params.bookshelf.subjectsLimit | default 12) }}
+            {{- end }}
+            <div class="about">
+                {{- with site.Params.authorImgPath }}
+                <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="" width="64" height="64" loading="lazy">
+                {{- end }}
+                <p><em><a href="{{ (site.GetPage "/about").RelPermalink }}">{{ partial "author-name.html" site.Params.author }}</a></em>{{ with site.Params.authorBlurb }} &mdash; {{ . | markdownify }}{{ end }}</p>
+            </div>
+            {{- partial "social.html" . }}
+        </aside>
+    </div>
+</div>
+{{ end }}
