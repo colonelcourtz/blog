@@ -219,3 +219,6 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [bookshelf]
   intro = "My cosy repository of unnecessary projects and unexpectedly useful knowledge."
   monogram = "CH"
+  # Taller spines leave more room for single-line titles.
+  minHeight = 340
+  maxHeight = 430

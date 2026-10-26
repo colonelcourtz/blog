@@ -23,6 +23,31 @@
     <li class="slot"><img src="{{ "images/fern.svg" | relURL }}" alt="" style="height: calc(280px * var(--s));"></li>
 </ul>
 <script>
+(function () {
+    var shelf = document.currentScript.previousElementSibling;
+    var titles = shelf.querySelectorAll('.spine__title');
+    var frame;
+    function fitTitles() {
+        titles.forEach(function (title) {
+            title.style.removeProperty('font-size');
+            var size = parseFloat(getComputedStyle(title).fontSize);
+            while (size > 16 && title.scrollHeight > title.clientHeight) {
+                size = Math.max(16, size - 0.5);
+                title.style.fontSize = size + 'px';
+            }
+        });
+    }
+    titles.forEach(function (title) {
+        var spine = title.closest('.spine');
+        spine.title = spine.getAttribute('aria-label');
+    });
+    fitTitles();
+    document.fonts.ready.then(fitTitles);
+    window.addEventListener('resize', function () {
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(fitTitles);
+    });
+})();
 var duckIdle;
 document.addEventListener('mousemove', function (e) {
     var eye = document.getElementById('duck-eye');
