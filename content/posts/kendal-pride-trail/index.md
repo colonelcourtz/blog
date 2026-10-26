@@ -24,9 +24,11 @@ A series of questions which guided you round the town with the lure of winning a
 
 She came to me with a few scraps of paper in hand with her rough idea for the route and some questions with the request that I help to flesh out the trail, the questions and perhaps inject some creativity into the project.
 
+![Planning the Kendal Pride Trail route and questions](planning.jpg)
+
 Now I love a puzzle, and setting puzzle questions is something I do annually for our companies charity quiz sheets which are sold around the local area. So my interest was piqued.
 
-As a developer by trade my brain instantly jumped to - "We could do some fun web-app stuff with this?"
+As a developer, my brain immediately went to: "we could absolutely over-engineer this into a web app"
 
 So I set to making my demo version to showcase to her and some other organisers. 
 
@@ -64,6 +66,14 @@ For this I used [GSAP](https://gsap.com/) to draw a line as the user scrolled to
 
 I then used [Lottie](https://lottiefiles.com/) for some cool animations which played while scrolling.
 
+
+<video controls muted playsinline preload="metadata" style="margin:50px 0px 50px 0px; width: 100%; height: auto;">
+  <source src="pride_trail_recording.mp4" type="video/mp4">
+  <source src="pride_trail_recording.mov" type="video/quicktime">
+  Your browser does not support embedded video. You can <a href="pride_trail_recording.mp4">download the screen recording here</a>.
+</video>
+
+
 It was done. The trail was launched with it being advertised around the evnet and we added some google tags to track how many users participated and how far through they progressed.
 
 Although this was not something I had necessarily chosen to undertake purely for the love of it, having a deadline and people holding me to account (loosely) did give this project a feeling of urgency, importance and a requirement for more attention to detail than my usual chaos.
@@ -71,6 +81,4 @@ Although this was not something I had necessarily chosen to undertake purely for
 I learned a fair bit about react development, web animations and azure hosting from this project - some of which I have put into practice again for this blog.
 
 At the time of writing the site is still up and available at [https://trail.kendalpride.co.uk/](https://trail.kendalpride.co.uk/) if you want to take a look. Who knows I might do it again next year. If so, I'll try to remember to archive it for future readers, and make a follow up blog on the new and improved Kendal Pride Trail.
-
-
 
