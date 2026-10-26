@@ -219,6 +219,22 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [bookshelf]
   intro = "My cosy repository of unnecessary projects and unexpectedly useful knowledge."
   monogram = "CH"
+  palette = [
+    { bg = "#6B1F3A", fg = "#F7EBDD" }, # burgundy
+    { bg = "#2D4F88", fg = "#F3EBDD" }, # royal blue
+    { bg = "#D9A441", fg = "#2D1F0C" }, # warm yellow
+    { bg = "#2F6C68", fg = "#F2ECE1" }, # teal
+    { bg = "#9A5131", fg = "#FAECDD" }, # terracotta
+    { bg = "#4E3A73", fg = "#F2E7FA" }, # plum
+    { bg = "#3F5C2C", fg = "#EFF0DC" }, # moss
+    { bg = "#8A2D2D", fg = "#F8E7DF" }, # oxblood
+  ]
   # Taller spines leave more room for single-line titles.
   minHeight = 340
   maxHeight = 430
+
+[bookshelf.colors]
+  javascript = "#2D4F88"
+  concertina = "#6B1F3A"
+  code = "#6B1F3A"
+  community = "#D9A441"

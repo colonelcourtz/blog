@@ -1,10 +1,10 @@
 +++
 title = "Kendal Pride Trail"
-date = 2026-10-19T08:30:00-07:00
+date = 2026-10-26T08:30:00-07:00
 draft = false
 description = "A write-up of the Kendal Pride Trail"
 tags = ["javascript", "Code", "Community"]
-categories = ["Code", "javascript", "community"]
+categories = ["javascript", "community"]
 +++
 
 
