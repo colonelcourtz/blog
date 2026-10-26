@@ -24,7 +24,7 @@ A series of questions which guided you round the town with the lure of winning a
 
 She came to me with a few scraps of paper in hand with her rough idea for the route and some questions with the request that I help to flesh out the trail, the questions and perhaps inject some creativity into the project.
 
-![Planning the Kendal Pride Trail route and questions](planning.jpg)
+<img src="notes.png" alt="My colleague's notes as the starting point" style="width: 50%; min-width: 140px; height: auto;">
 
 Now I love a puzzle, and setting puzzle questions is something I do annually for our company's charity quiz sheets which are sold around the local area. So my interest was piqued.
 
@@ -62,6 +62,8 @@ To make it clever I tried to link the questions together. One answer to a questi
 
 This was easier said than done, and required many play tests. Luckily, with our baby having arrived a few months earlier and pram walks being a great way to get her to sleep, there was no shortage of time for plodding the trail and checking everything linked up nicely.
 
+![Planning the Kendal Pride Trail route and questions](planning.jpg)
+
 The trail was ready so the final parts were to slap on some pride flair with animations, effects, bold imagery and colours to match the main website brand guidelines.
 
 For this I used [GSAP](https://gsap.com/) to draw a line as the user scrolled to draw an animated path through the town. Similarly I used this to make images jump in and out of view as you scroll.
@@ -82,6 +84,6 @@ Although this was not something I had necessarily chosen to undertake purely for
 
 I learned a fair bit about React development, web animations and Azure hosting from this project - some of which I have put into practice again for this blog.
 
-In the end it felt less like building a website and more like building a small rehearsal for real life: imperfect maps, partial clues, occasional hints, and a lot of faith that the next turn will reveal something useful.
+If nothing else, it reminded me that most good things in life start as a rough sketch on paper, then become clearer one careful step at a time
 
 At the time of writing the site is still up and available at [https://trail.kendalpride.co.uk/](https://trail.kendalpride.co.uk/) if you want to take a look. Who knows I might do it again next year. If so, I'll try to remember to archive it for future readers, and make a follow up blog on the new and improved Kendal Pride Trail.
