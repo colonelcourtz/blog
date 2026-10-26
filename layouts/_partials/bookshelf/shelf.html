@@ -1,4 +1,4 @@
-{{- /* Renders pages as spines on shelves, oldest left to newest right, with a divider for each year */ -}}
+{{- /* Oldest-to-newest spines with year dividers; reserve first-shelf space for the duck and plant. */ -}}
 {{- $pages := .ByDate }}
 {{- $cfg := site.Params.bookshelf | default dict }}
 {{- $max := $cfg.maxSpines | default 0 | int }}
@@ -19,14 +19,43 @@
         {{- if $last }}<span class="bookend" aria-hidden="true"></span>{{ end }}
     </li>
     {{- end }}
-    <li class="slot" style="margin-left: auto; margin-right: -30px; position: relative; z-index: 1;"><span style="position: relative; display: block;"><img src="{{ "images/duck.svg" | relURL }}" alt="" style="display: block; height: calc(80px * var(--s));"><span id="duck-eye" style="position: absolute; left: 20.37%; top: 19.52%; width: 15.08%; height: 14.14%; background: #fff; border-radius: 50%;"><span id="duck-pupil" style="position: absolute; left: 50%; top: 50%; width: 31%; height: 33%; background: #000; border-radius: 50%; transform: translate(-50%, -50%);"></span></span></span></li>
-    <li class="slot"><img src="{{ "images/fern.svg" | relURL }}" alt="" style="height: calc(280px * var(--s));"></li>
+    <li class="slot shelf__ornaments" aria-hidden="true">
+        <span class="shelf__duck"><img src="{{ "images/duck.svg" | relURL }}" alt=""><span id="duck-eye" style="position: absolute; left: 20.37%; top: 19.52%; width: 15.08%; height: 14.14%; background: #fff; border-radius: 50%;"><span id="duck-pupil" style="position: absolute; left: 50%; top: 50%; width: 31%; height: 33%; background: #000; border-radius: 50%; transform: translate(-50%, -50%);"></span></span></span>
+        <img class="shelf__plant" src="{{ "images/fern.svg" | relURL }}" alt="">
+    </li>
 </ul>
 <script>
 (function () {
     var shelf = document.currentScript.previousElementSibling;
     var titles = shelf.querySelectorAll('.spine__title');
+    var ornaments = shelf.querySelector('.shelf__ornaments');
+    var slots = Array.from(shelf.children).filter(function (slot) { return slot !== ornaments; });
     var frame;
+    function outerWidth(slot) {
+        var style = getComputedStyle(slot);
+        return slot.getBoundingClientRect().width + parseFloat(style.marginLeft) + parseFloat(style.marginRight);
+    }
+    function arrangeShelf() {
+        shelf.appendChild(ornaments);
+        var style = getComputedStyle(shelf);
+        var available = shelf.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+        var gap = parseFloat(style.columnGap);
+        var used = ornaments.getBoundingClientRect().width;
+        var next = null;
+        // Reserve the ornaments' space before deciding which books fit on the first shelf.
+        for (var i = 0; i < slots.length; i++) {
+            var width = outerWidth(slots[i]) + gap;
+            var following = slots[i].classList.contains('slot--year') && slots[i + 1]
+                ? outerWidth(slots[i + 1]) + gap : 0;
+            if (used + width + following > available) {
+                next = slots[i];
+                break;
+            }
+            used += width;
+        }
+        shelf.insertBefore(ornaments, next);
+        fitTitles();
+    }
     function fitTitles() {
         titles.forEach(function (title) {
             title.style.removeProperty('font-size');
@@ -41,12 +70,19 @@
         var spine = title.closest('.spine');
         spine.title = spine.getAttribute('aria-label');
     });
-    fitTitles();
-    document.fonts.ready.then(fitTitles);
-    window.addEventListener('resize', function () {
-        cancelAnimationFrame(frame);
-        frame = requestAnimationFrame(fitTitles);
+    arrangeShelf();
+    document.fonts.ready.then(arrangeShelf);
+    ornaments.querySelectorAll('img').forEach(function (image) {
+        image.addEventListener('load', arrangeShelf);
     });
+    var shelfWidth;
+    new ResizeObserver(function () {
+        var width = shelf.getBoundingClientRect().width;
+        if (width === shelfWidth) return;
+        shelfWidth = width;
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(arrangeShelf);
+    }).observe(shelf);
 })();
 var duckIdle;
 document.addEventListener('mousemove', function (e) {

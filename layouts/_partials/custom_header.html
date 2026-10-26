@@ -1,4 +1,6 @@
 <style>
+    .library { display: block; }
+    .library .library__intro { max-width: 720px; padding-bottom: 32px; }
     .shelf .spine__title {
         max-width: calc(100% - 4px);
         padding: 3px;
@@ -7,7 +9,21 @@
         line-height: 1.3;
         letter-spacing: 0.06em;
     }
+    .shelf__ornaments {
+        flex: 0 0 auto;
+        gap: 4px;
+        margin-left: auto;
+    }
+    .shelf__duck {
+        position: relative;
+        display: block;
+        margin-left: 50px;        
+        z-index: 1;
+    }
+    .shelf__duck > img { display: block; height: calc(80px * var(--s)); }
+    .shelf__plant { display: block; height: calc(280px * var(--s)); }
     @media (max-width: 760px) {
+        .library .library__intro { padding-bottom: 8px; }
         /* Keep full-height books while retaining the narrower mobile spines. */
         .shelf {
             --row: calc(var(--maxh) * 1px + var(--plank-h) + 28px);
