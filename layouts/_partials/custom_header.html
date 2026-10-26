@@ -23,18 +23,36 @@
     .shelf__duck > img { display: block; height: calc(80px * var(--s)); }
     .shelf__plant { display: block; height: calc(280px * var(--s)); }
     @media (max-width: 760px) {
+        :root { --s: 0.56; }
+        body { font-size: 16px; }
+        .library__intro h1 { font-size: 30px; }
         .library .library__intro { padding-bottom: 8px; }
-        /* Keep full-height books while retaining the narrower mobile spines. */
+        .library__shelf { overflow-x: clip; }
         .shelf {
-            --row: calc(var(--maxh) * 1px + var(--plank-h) + 28px);
+            --row: calc(var(--maxh) * 0.82px + var(--plank-h) + 28px);
         }
         .shelf .spine {
-            height: calc(var(--h) * 1px);
+            height: calc(var(--h) * 0.82px);
         }
         .shelf .spine__title {
             max-width: 100%;
+            font-size: 13px;
             line-height: 1.15;
         }
+        .shelf__ornaments { position: relative; width: 88px; }
+        .shelf__duck { margin-left: 0; }
+        .shelf__duck > img { height: 42px; }
+        .shelf__plant {
+            position: absolute;
+            right: -100px;
+            bottom: var(--plank-h);
+            height: 180px;
+            max-width: none;
+        }
+        .catalogue__title { font-size: 19px; }
+        .catalogue__desc { font-size: 15px; }
+        .book__opener h1, .page-head h1 { font-size: 34px; }
+        .book__desc, .prose { font-size: 16px; }
     }
     .book__hero { margin: 28px auto 0; max-width: 820px; }
     .book__hero img {
