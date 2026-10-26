@@ -44,7 +44,31 @@ I worked with the website team to get set up on a subdomain and align with their
 
 I set up a new React project and bashed out some components - one for the answer input, the questions, the hints, plus logic for scoring, skipping questions etc. All the basics needed.
 
+The answer checking started out very glamorous and enterprise-grade:
+
+```ts
+const normalise = (value: string) => value.trim().toLowerCase();
+
+if (normalise(userAnswer) === normalise(currentQuestion.answer)) {
+  setScore((s) => s + 1);
+  goToNextQuestion();
+} else {
+  setShowHint(true);
+}
+```
+
+For at least one evening this was also connected to a deeply scientific QA process, by which I mean me standing in the rain reading a plaque three times because I had mistyped the expected answer in the JSON.
+
 To help navigate I added a little map using [Leaflet](https://leafletjs.com/) and stuck a pin at the user's location and the location of the question they were on based on their device's GPS.
+
+```ts
+const map = L.map("map").setView([54.328, -2.747], 15);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+L.marker(question.location).addTo(map);
+L.marker(userLocation).addTo(map);
+```
+
+Mostly this worked beautifully. Occasionally it decided I was in a nearby car park, which was a humbling reminder that even satellites have off days.
 
 The template and structure were complete. I had the whole thing sorted apart from the questions.
 
@@ -67,6 +91,21 @@ This was easier said than done, and required many play tests. Luckily, with our 
 The trail was ready so the final parts were to slap on some pride flair with animations, effects, bold imagery and colours to match the main website brand guidelines.
 
 For this I used [GSAP](https://gsap.com/) to draw a line as the user scrolled to draw an animated path through the town. Similarly I used this to make images jump in and out of view as you scroll.
+
+```ts
+gsap.fromTo(
+  ".trail-line",
+  { drawSVG: "0%" },
+  {
+    drawSVG: "100%",
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".trail-container",
+      scrub: true,
+    },
+  }
+);
+```
 
 I then used [Lottie](https://lottiefiles.com/) for some cool animations which played while scrolling.
 
