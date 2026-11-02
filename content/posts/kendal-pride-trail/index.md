@@ -117,7 +117,7 @@ I then used [Lottie](https://lottiefiles.com/) for some cool animations which pl
 </video>
 
 
-It was done. The trail was launched, advertised around the event, and we added some Google tags to track how many users participated and how far through they progressed.
+It was done. The trail was launched, advertised around the event, and we added some Google analytics tags to track how many users participated and how far through they progressed.
 
 Although this was not something I had necessarily chosen to undertake purely for the love of it, having a deadline and people holding me to account (loosely) did give this project a feeling of urgency, importance and a requirement for more attention to detail than my usual chaos.
 
