@@ -1,7 +1,7 @@
 +++
 title = "The Duck Head"
 date = 2026-11-02T08:30:00-07:00
-draft = true
+draft = false
 description = "A writeup of the Duck Head"
 tags = ["Papier-mâché", "costume"]
 categories = ["Papier-mâché", "costume"]
@@ -43,6 +43,20 @@ For all the effort that went into the duck head I'm glad to say halloween 2024 w
 I have since worn it to a few of our lunchtime cold-water river dips, our summer BBQ where I ran the hook-a-duck stand and always makes an appearance whenever nieces or nephews come to visit. 
 
 
+![Duck head at the river.](duck_head_at_river.jpg)
 
+![Duck head for hook-a-duck.](hook_a_duck_head.jpg)
 
+![Me wearing the duck head.](me_in_duck_head.jpg)
 
+Reflecting on this made me wonder: why did I do this? Why didn't I just buy a vampire costume like a normal person? Why spend countless hours taking a running gag far more seriously than it deserved? 
+
+I think there's something important in the stupid little things that develop between people. One daft comment becomes a running gag, the running gag becomes a tradition, and before long it's entered the peculiar little mythology of a group of people. A completely inconsequential thing that somehow matters. 
+
+We've been thinking a bit about company culture at work recently, and I think this encapsulates what it means to me. Groups of people seem naturally to build their own little mythology: running jokes, stories, traditions and unwritten rules that accumulate over time. Individually they're mostly nonsense, but collectively they give you that strange but warm fuzzy feeling of belonging to something.
+
+In my case, apparently, that something involves a papier-mâché duck.
+
+The duck head is objectively worse than something I could have bought. But I made it, I'm proud of it, just like all my other bodges.
+
+The imperfections are just proof that a human being was here.
