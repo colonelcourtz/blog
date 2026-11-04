@@ -66,4 +66,14 @@ I might return to this project one day to integrate the actual synthesiser into 
 
 Looking back, I've learnt a surprising amount from what started as messing around with a £10 concertina: how concertina reeds and bellows actually work, how to read switches with a microcontroller, how MIDI notes and expression are controlled, how differential pressure sensors work, how to turn bellows pressure into something useful in software, and that cling film and tape are apparently legitimate instrument-building materials. What remains is less a finished instrument than a record of everything I didn't know when I started.
 
+And finally, I can play twinkle twinkle.
+
+
+<video controls playsinline preload="metadata" style="margin:50px 0px 50px 0px; width: 100%; height: auto;">
+  <source src="twinkle_twinkle.mp4" type="video/mp4">
+  <source src="twinkle_twinkle.mov" type="video/quicktime">
+  Your browser does not support embedded video. You can <a href="twinkle_twinkle.mp4">download the video here</a>.
+</video>
+
+
 [The first part](../electric-concertina/) is where the whole thing started; [the middle part](../electric-concertina-midi/) covers the electronics and MIDI setup.
