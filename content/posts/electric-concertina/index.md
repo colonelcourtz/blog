@@ -11,7 +11,7 @@ This journey started back in March 2024, walking past a junk shop when a battere
 
 For the suspiciously low sum of £10 it could be mine. I had no idea how to play it, no idea if it worked, and no idea how to fix it if it _was_ broken. But it was going to be damn good fun finding out.
 
-There's something quite freeing about starting a project you know nothing about. You have a sense of optimism, so many doors to open and peep inside and you haven't yet learnt which ideas you're supposed to dismiss as stupid. Turns out, most of them.
+There's something quite freeing about starting a project you know nothing about. You have a sense of optimism, so many doors to open and peep inside and you haven't yet learnt which ideas you're supposed to dismiss as stupid.
 
 ![The battered concertina before restoration, with its worn red body and leaking bellows.](pre-restoration.jpg)
 
