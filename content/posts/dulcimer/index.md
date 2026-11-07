@@ -34,7 +34,16 @@ Now I wasn't just going to make a plain old box, I wanted it to have _some_ eleg
 
 Now I was aware of steam bending of wood, and that this would be my method of adding this curvature, and it's at this part of the project where we are about to see some top tier bodging.
 
-Now usually one would have a setup with a dedicated box chamber for the wood to be placed in, a steamer, a nice jig setup for forming the steamed piece, some heavy duty gloves to protect your hands and lots of clamps to safely hold things in place.
+Now usually one would have a setup with a dedicated box chamber for the wood to be placed in, a steamer, a nice jig setup for forming the steamed piece, some heavy duty gloves to protect your hands and lots of clamps to safely hold things in place. Like this:
+
+<figure>
+  <img src="steam_box.webp" alt="A more sophisticated approach to a steam box.">
+  <figcaption>
+    <strong>Illustration attribution:</strong> By Vince Babak, from “How to Build a Steambox,”
+    Fine Woodworking, Issue 195 (2008). Reproduced for discussion and comparison.
+    <a href="https://www.finewoodworking.com/2007/12/01/how-to-build-a-steambox">Original article: Fine Woodworking</a>.
+  </figcaption>
+</figure>
 
 I had almost none of these things.
 
@@ -62,11 +71,22 @@ So measuring the nut to bridge and using the above gave me all the positions for
 
 I cut a few holes into the body as sound holes, and filed them out with a rat-tail file to make a sun and moon motif. I remember this taking far longer than I expected probably because my rat-tail file was 100 years old and was basically a smooth piece of metal by this point.
 
+![The moon-shaped sound hole cut into the dulcimer's body.](moon_motif.jpg)
+
 The nut and bridge I fashioned from an old bean tin (ok, maybe this was the bodgiest bit and not the steam process), and once I'd strung up the strings from escutcheon pins up to the keys at the top I gave it a first strum. And bugger me, it sounded good. Not perfect, but the sound resonated through the box nicely and it had a decent volume to it.
+
+![A close-up of the dulcimer's bridge, made from a bean tin.](bean_tin_bridge.jpg)
+
+<video controls playsinline preload="metadata" style="margin:50px 0px 50px 0px; width: 100%; height: auto;">
+  <source src="video_demo.mp4" type="video/mp4">
+  Your browser does not support embedded video. You can <a href="video_demo.mp4">download the video here</a>.
+</video>
 
 So the appalachian dulcimer, as I said, is a diatonically fretted instrument. It has 2 drone strings and two melody strings. The great thing about this is that you can play pretty much anything at all, pressing down on any of the melody frets and it sounds nice. The downside is you're limited to songs in whatever key it is tuned to. 
 
 It was done, it looked nice enough, played well enough and more importantly was a lot of fun to build.
+
+![The completed dulcimer leaning against a wall.](finished_dulcimer.jpg)
 
 A few extra offshoot projects came shortly afterwards. Sewing a case for it to protect my precious instrument, and fashioning a dulcimer-suitable capo for it from some washers, butterfly nuts a carriage bolt and a piece of rubber tubing. Again for all the bodging it worked pretty well.
 
