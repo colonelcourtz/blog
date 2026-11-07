@@ -9,13 +9,13 @@ categories = ["Projects"]
 
 This journey started back in March 2024, walking past a junk shop when a battered and broken concertina caught my eye.
 
-For the suspiciously low sum of £10 it could be mine. I had no idea how to play it, no idea if it worked, and no idea how to fix it if it _was_ broken. But it was going to be damn good fun finding out.
+For the suspiciously low sum of £10, it could be mine. I had no idea how to play it, no idea if it worked, and no idea how to fix it if it _was_ broken. But it was going to be damn good fun finding out.
 
 There's something quite freeing about starting a project you know nothing about. You have a sense of optimism, so many doors to open and peep inside and you haven't yet learnt which ideas you're supposed to dismiss as stupid.
 
 ![The battered concertina before restoration, with its worn red body and leaking bellows.](pre-restoration.jpg)
 
-It came home with me and within a few minutes I'd forced out a rendition of Twinkle Twinkle Little Star with only a few missing notes, not just due to my bad playing but that it was _literally_ missing some notes. It was clear at this point that not only was it badly out of tune, some of the reeds were either broken or missing, and the bellows were leaking like a sieve.
+It came home with me and within a few minutes I'd forced out a rendition of Twinkle Twinkle Little Star with only a few missing notes, not just due to my bad playing but because it was _literally_ missing some notes. It was clear at this point that not only was it badly out of tune, some of the reeds were either broken or missing, and the bellows were leaking like a sieve.
 
 After a little coaxing and fiddling with some very rusty screws, I'd opened up the body of the concertina and saw some snapped reeds, fairly obvious holes and a lot of dust; otherwise it was in great shape in much the same way that someone with a broken leg might otherwise be in excellent health.
 
