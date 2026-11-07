@@ -2,7 +2,6 @@ TODO
 Add google analytics
 
 Dulcimer
-Duck head *
 Conker tournament
 Plastering?
 Office Bookshelf
