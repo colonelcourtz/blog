@@ -77,6 +77,8 @@ The nut and bridge I fashioned from an old bean tin (ok, maybe this was the bodg
 
 ![A close-up of the dulcimer's bridge, made from a bean tin.](bean_tin_bridge.jpg)
 
+Here's a little video of me playing a terrible rendition of "Wild mountain thyme", cue excuses why it sounds terrible, out of tune, bad recording, out of practice. In reality it's a bit shit and my ability to play is worse.
+
 <video controls playsinline preload="metadata" style="margin:50px 0px 50px 0px; width: 100%; height: auto;">
   <source src="video_demo.mp4" type="video/mp4">
   Your browser does not support embedded video. You can <a href="video_demo.mp4">download the video here</a>.
