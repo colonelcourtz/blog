@@ -3,7 +3,7 @@ title = "The Duck Head"
 date = 2026-11-02T08:30:00-07:00
 draft = false
 description = "A writeup of the Duck Head"
-tags = ["Papier-mâché", "costume"]
+tags = ["papier-mache", "costume"]
 categories = ["Papier-mâché", "costume"]
 +++
 
