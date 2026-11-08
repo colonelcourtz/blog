@@ -14,11 +14,11 @@ Anyway, this post is not about fireworks, or cinder toffee or sparklers. It's ab
 
 So how do we make the smooth transition from fireworks to a woodwork project from over 12 years ago...well. While at my sister's house, with bangs and flashes going on outside, she proudly brought out a new instrument she had bought on vinted. A slightly dusty old zither, with documentation and music showing its origins in germany in the early 80s. She played a few hauntingly beautiful tunes and we got onto talking about unusual instruments. 
 
-If you've not heard of a zither it's a stringed instrument, played horizontally; with many strings, some to play melody and other set up to play chords. You pluck or strum the strings and...music happens. Visually it looks very much like a hammered dulcimer and audibly it sounds quite like one too. You can read a much better explanation on the wiki page [here](https://en.wikipedia.org/wiki/Zither)
+If you've not heard of a zither it's a string instrument, played horizontally; with an unreasonable number of strings, some to play melody and other set up to play chords. You pluck or strum and...well...music happens. Visually it looks very much like a hammered dulcimer and audibly it sounds quite like one too. You can read a much better explanation on the wiki page [here](https://en.wikipedia.org/wiki/Zither)
 
-Now here comes the forced transition into my project. All this talk of horizontal plucked stringed instruments got me thinking about my project from 12 years ago when I attempted to build a very delicate instrument with not so delicate materials or method. An (appalachian dulcimer)[https://en.wikipedia.org/wiki/Appalachian_dulcimer].
+Now here comes the forced transition into my project. All this talk of horizontal plucked stringed instruments got me thinking about the time I attempted to build a very delicate instrument with not so delicate materials or method. An [Appalachian dulcimer](https://en.wikipedia.org/wiki/Appalachian_dulcimer).
 
-I'd fairly recently acquired a banjo and was in the phase of my life where I was exploring bluegrass and American folk music, and I'd been watching videos where this strange instrument featured. It had a fascinating medieval sound to it and I wanted to know more, I wanted to play one, I wanted to own one.
+I'd fairly recently acquired a banjo and was in the phase of my life where I was exploring bluegrass and American folk music, and I'd been watching videos where this strange instrument featured. It had a fascinating medieval sound to it and I wanted to know more, I wanted to play one, I wanted to **own** one.
 
 At the time, looking online, they were prohibitively expensive, especially for someone who was working part-time as a cleaner for Wetherspoons and semi-illegally subletting a room to friends to afford the rent.
 
@@ -26,15 +26,15 @@ But that didn't stop me. I had my heart set on a dulcimer of my own, so I resolv
 
 With a miniscule budget there was no expectation that this would be a good quality instrument, but I wanted it to be good enough as a toe-dip to determine if I should consider investing in a real dulcimer one day when funds allowed. So I popped down to B&Q and picked up the cheapest sheet wood I could find (some 5mm ply) and a strip of something for the fretboard.
 
-By pure fluke B&Q were selling off some strips of what should have been very expensive mahogany for a few quid due to some dinks and holes that made them apparently unsellable for their intended purpose. Luckily the length I needed would just miss off these imperfections.
+By pure fluke B&Q were selling off some pieces of what should have been very expensive mahogany for a few quid due to some dinks and holes that made them apparently unsellable for their intended purpose. Luckily the length I needed would just miss off these imperfections.
 
-Now if you clicked on the wiki link above or otherwise have seen a picture of an appalachian dulcimer, you'll notice its elegant form with nice curved edges and beautiful cutouts, but otherwise its just a fucking box with a chunk of wood slapped on the top.
+If you clicked on the wiki link above or otherwise have seen a picture of an appalachian dulcimer, you'll notice its elegant form with nice curved edges and beautiful cutouts, but otherwise its just a fucking box with a chunk of wood slapped on the top.
 
-Now I wasn't just going to make a plain old box, I wanted it to have _some_ elegance, but also I clearly wasn't going to achieve the same slim form of the professionally crafted versions. So somewhere in-between...a semi-elegant box. A curvy box.
+Now I wasn't just going to make a plain old box, I wanted it to have _some_ elegance, but also I clearly wasn't going to achieve the same slim form of the professionally crafted versions. So somewhere in-between...a semi-elegant box if you will.
 
-Now I was aware of steam bending of wood, and that this would be my method of adding this curvature, and it's at this part of the project where we are about to see some top tier bodging.
+I was aware of steam bending of wood, and knew that this would be my method of adding this curvature, and it's at this part of the project where we are about to see some top tier bodging.
 
-Now usually one would have a setup with a dedicated box chamber for the wood to be placed in, a steamer, a nice jig setup for forming the steamed piece, some heavy duty gloves to protect your hands and lots of clamps to safely hold things in place. Like this:
+Usually one would have a setup with a dedicated box chamber for the wood to be placed in, a steamer, a thermometer, a pipe to ensure even distribution, a nice jig setup for forming the steamed piece, some heavy duty gloves to protect your hands and lots of clamps to safely hold things in place. Like this:
 
 <figure>
   <img src="steam_box.webp" alt="A more sophisticated approach to a steam box.">
@@ -59,7 +59,7 @@ I stuck several pieces of the ply together to form a head for the keys, which I 
 
 The rest was simple enough, glue the whole box together, carve down the head, give it a good sand and oil, hammer in the frets and string her up.
 
-Ooh, the frets, now that bit was a fun rabbit hole. So appalachian dulcimers are (diatonically fretted)[https://en.wikipedia.org/wiki/Regular_diatonic_tuning], so unlike a guitar which is chromatically fretted, the dulcimer follows a scale. So is tuned to a specific key.
+Ooh, the frets, now that bit was a fun rabbit hole. So appalachian dulcimers are [diatonically fretted](https://en.wikipedia.org/wiki/Regular_diatonic_tuning), so unlike a guitar which is chromatically fretted, the dulcimer follows a scale. So is tuned to a specific key.
 
 The maths for this seemed scary but was actually simple enough.
 
@@ -73,23 +73,25 @@ I cut a few holes into the body as sound holes, and filed them out with a rat-ta
 
 ![The moon-shaped sound hole cut into the dulcimer's body.](moon_motif.jpg)
 
-The nut and bridge I fashioned from an old bean tin (ok, maybe this was the bodgiest bit and not the steam process), and once I'd strung up the strings from escutcheon pins up to the keys at the top I gave it a first strum. And bugger me, it sounded good. Not perfect, but the sound resonated through the box nicely and it had a decent volume to it.
+The nut and bridge I fashioned from an old bean tin (maybe the bodgiest bit of the project), and once I'd strung up the strings from escutcheon pins up to the keys at the top I gave it a first strum. And bugger me, it sounded ok. Not perfect, but the sound resonated through the box nicely and it had a decent volume to it.
 
 ![A close-up of the dulcimer's bridge, made from a bean tin.](bean_tin_bridge.jpg)
 
-Here's a little video of me playing a terrible rendition of "Wild mountain thyme", cue excuses why it sounds awful: "It's out of tune", "It's a bad recording", "I'm out of practice". In reality it's a bit shit and my ability to play is worse.
+Here's a little video of me playing a terrible rendition of "Wild mountain thyme". Cue excuses why it sounds awful: "It's out of tune", "It's a bad recording", "I'm out of practice". In reality it's a bit shit and my ability to play is worse.
 
 <video controls playsinline preload="metadata" style="margin:50px 0px 50px 0px; width: 100%; height: auto;">
   <source src="video_demo.mp4" type="video/mp4">
   Your browser does not support embedded video. You can <a href="video_demo.mp4">download the video here</a>.
 </video>
 
-So the appalachian dulcimer, as I said, is a diatonically fretted instrument. It has 2 drone strings and two melody strings. The great thing about this is that you can play pretty much anything at all, pressing down on any of the melody frets and it sounds nice. The downside is you're limited to songs in whatever key it is tuned to. 
+So the appalachian dulcimer, as I said, is a diatonically fretted instrument. It has 2 drone strings and two melody strings. The great thing about this is that you can play pretty much anything at all, pressing down on any of the melody notes and it sounds nice. The downside is you're limited to songs in whatever key it is tuned to. 
 
 It was done, it looked nice enough, played well enough and more importantly was a lot of fun to build.
 
 ![The completed dulcimer leaning against a wall.](finished_dulcimer.jpg)
 
 A few extra offshoot projects came shortly afterwards. Sewing a case for it to protect my precious instrument, and fashioning a dulcimer-suitable capo for it from some washers, butterfly nuts a carriage bolt and a piece of rubber tubing. Again for all the bodging it worked pretty well.
+
+Limitations are often treated as obstacles to creativity, but actually I think they’re frequently the cause of it. If I’d had plenty of money, I’d have just bought a dulcimer. If I’d had a proper workshop, I’d have built one properly. Having neither meant I had to find my own way. It reminded me I should embrace the limitations in my life because removing constraints doesn't necessarily give you more possibilities. Sometimes it just removes the reason to invent.
 
 As I write this my sister has just messaged me asking how she could make a case for her new zither...I feel another bodge a-brewing.
