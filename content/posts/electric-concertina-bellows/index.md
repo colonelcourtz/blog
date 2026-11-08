@@ -3,7 +3,7 @@ title = "03. The MIDI Concertina PT2"
 date = 2026-10-24T11:00:00-07:00
 draft = false
 description = "Adding pressure sensing, expression and a little bit of pipe organ to my homemade MIDI concertina."
-tags = ["concertina", "MIDI", "electronics", "circuitPython", "code"]
+tags = ["concertina", "MIDI", "electronics", "circuitPython", "code", "instrument"]
 categories = ["Projects"]
 +++
 

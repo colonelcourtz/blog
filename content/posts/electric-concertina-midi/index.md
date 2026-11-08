@@ -3,7 +3,7 @@ title = "02. The MIDI Concertina PT1"
 date = 2026-10-23T11:00:00-07:00
 draft = false
 description = "Replacing the concertina's leaky musical innards with micro switches, a Raspberry Pi Pico 2 and MIDI."
-tags = ["concertina", "MIDI", "electronics", "circuitPython", "code"]
+tags = ["concertina", "MIDI", "electronics", "circuitPython", "code", "instrument"]
 categories = ["Projects"]
 +++
 
