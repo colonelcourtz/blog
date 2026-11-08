@@ -8,7 +8,7 @@ categories = ["instrument"]
 +++
 
 
-This weekend we spent bonfire night at my sister's house setting off explosives around small children. As many people do this time of year. All because, as I recall from primary school, Guy Fawkes and some other blokes tried and failed to blow up Parliament. We commemorate this failure, naturally, by blowing things up. Pretty weird all round, but it's what we do, it's part of a tradition which is ever evolving and shifting away from its origin and more towards...well... setting off explosives around small children.
+This weekend we spent bonfire night at my sister's house setting off explosives around small children. As many people do this time of year in the UK. All because, as I recall from primary school, Guy Fawkes and some other blokes tried and failed to blow up Parliament 400 years ago. We commemorate this failure, naturally, by blowing things up. Pretty weird all round, but it's what we do, it's part of a tradition which is ever evolving and shifting away from its origin and more towards...well... setting off explosives around small children.
 
 Anyway, this post is not about fireworks, or cinder toffee or sparklers. It's about an instrument, one I made many years ago.
 
