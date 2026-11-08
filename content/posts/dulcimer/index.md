@@ -55,11 +55,11 @@ The clamps held while I tended to my burnt hands and set up the next piece of wo
 
 By some miracle this seemed to have worked, and once cooled and dry the pieces of ply were nicely curved and looked about as good as I could have hoped.
 
-I stuck several pieces of the ply together to form a head for the keys, which I bought online, along with some fret wire and strings. If memory serves this all came to about £20.
+I stuck several pieces of the remaining ply together to form a head for the keys, which I bought online, along with some fret wire and strings. If memory serves this all came to about £20.
 
 The rest was simple enough, glue the whole box together, carve down the head, give it a good sand and oil, hammer in the frets and string her up.
 
-Ooh, the frets, now that bit was a fun rabbit hole. So appalachian dulcimers are [diatonically fretted](https://en.wikipedia.org/wiki/Regular_diatonic_tuning), so unlike a guitar which is chromatically fretted, the dulcimer follows a scale. So is tuned to a specific key.
+Ooh, the frets, now that bit was a fun rabbit hole. Appalachian dulcimers are [diatonically fretted](https://en.wikipedia.org/wiki/Regular_diatonic_tuning), so unlike a guitar which is chromatically fretted, the dulcimer follows a scale. So is tuned to a specific key.
 
 The maths for this seemed scary but was actually simple enough.
 
@@ -69,13 +69,15 @@ Fret position = Scale length − (Scale length ÷ 2^(semitones ÷ 12))
 
 So measuring the nut to bridge and using the above gave me all the positions for the frets. This was an exercise in blind trust in the maths, because I had only one fretboard (there was no way I was paying the full price for the mahogany), and only one chance as the frets were hammered into the wood itself. So I proceeded to mark the positions, check and check again then grit my teeth and hammer the fret wire into the nicely prepared and beautifully grained wood.
 
-I cut a few holes into the body as sound holes, and filed them out with a rat-tail file to make a sun and moon motif. I remember this taking far longer than I expected probably because my rat-tail file was 100 years old and was basically a smooth piece of metal by this point.
+I cut a few holes into the body as sound holes, and filed them out with a rat-tail file to make a rough sun and moon motif. I remember this taking far longer than I expected probably because my rat-tail file was 100 years old and was basically a smooth piece of metal by this point. 
 
 ![The moon-shaped sound hole cut into the dulcimer's body.](moon_motif.jpg)
 
 The nut and bridge I fashioned from an old bean tin (maybe the bodgiest bit of the project), and once I'd strung up the strings from escutcheon pins up to the keys at the top I gave it a first strum. And bugger me, it sounded ok. Not perfect, but the sound resonated through the box nicely and it had a decent volume to it.
 
 ![A close-up of the dulcimer's bridge, made from a bean tin.](bean_tin_bridge.jpg)
+
+So the appalachian dulcimer, as I said, is a diatonically fretted instrument. It has 2 drone strings and two melody strings. The great thing about this is that you can play pretty much anything at all, pressing down on any of the melody notes and it sounds nice. The downside is you're limited to songs in whatever key it is tuned to. 
 
 Here's a little video of me playing a terrible rendition of "Wild mountain thyme". Cue excuses why it sounds awful: "It's out of tune", "It's a bad recording", "I'm out of practice". In reality it's a bit shit and my ability to play is worse.
 
@@ -84,7 +86,6 @@ Here's a little video of me playing a terrible rendition of "Wild mountain thyme
   Your browser does not support embedded video. You can <a href="video_demo.mp4">download the video here</a>.
 </video>
 
-So the appalachian dulcimer, as I said, is a diatonically fretted instrument. It has 2 drone strings and two melody strings. The great thing about this is that you can play pretty much anything at all, pressing down on any of the melody notes and it sounds nice. The downside is you're limited to songs in whatever key it is tuned to. 
 
 It was done, it looked nice enough, played well enough and more importantly was a lot of fun to build.
 
