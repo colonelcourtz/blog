@@ -28,6 +28,7 @@
 (function () {
     var shelf = document.currentScript.previousElementSibling;
     var titles = shelf.querySelectorAll('.spine__title');
+    var spines = shelf.querySelectorAll('.spine');
     var ornaments = shelf.querySelector('.shelf__ornaments');
     var slots = Array.from(shelf.children).filter(function (slot) { return slot !== ornaments; });
     var frame;
@@ -69,6 +70,17 @@
     titles.forEach(function (title) {
         var spine = title.closest('.spine');
         spine.title = spine.getAttribute('aria-label');
+    });
+    document.addEventListener('pointermove', function (event) {
+        document.documentElement.style.setProperty('--pointer-x', event.clientX + 'px');
+        document.documentElement.style.setProperty('--pointer-y', event.clientY + 'px');
+        spines.forEach(function (spine) {
+            var rect = spine.getBoundingClientRect();
+            var x = Math.max(0, Math.min(100, (event.clientX - rect.left) / rect.width * 100));
+            var y = Math.max(0, Math.min(100, (event.clientY - rect.top) / rect.height * 100));
+            spine.style.setProperty('--light-x', x + '%');
+            spine.style.setProperty('--light-y', y + '%');
+        });
     });
     arrangeShelf();
     document.fonts.ready.then(arrangeShelf);
