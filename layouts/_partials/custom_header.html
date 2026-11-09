@@ -18,6 +18,24 @@
         content: "";
         pointer-events: none;
     }
+    :root[data-theme="light"] body:has(.library)::before {
+        background-image: url("/library_background.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity: 0.03;
+        -webkit-mask-image: none;
+        mask-image: none;
+    }
+    @media (prefers-color-scheme: light) {
+        :root:not([data-theme="dark"]) body:has(.library)::before {
+            background-image: url("/library_background.jpg");
+            background-position: center;
+            background-size: cover;
+            opacity: 0.08;
+            -webkit-mask-image: none;
+            mask-image: none;
+        }
+    }
     .library { display: block; }
     .library .library__intro { max-width: 720px; padding-bottom: 32px; }
     .shelf .spine__title {
