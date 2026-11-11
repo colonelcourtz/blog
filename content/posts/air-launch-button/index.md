@@ -1,5 +1,5 @@
 +++
-title = "Air Launch Button"
+title = "The Launch Button"
 date = 2026-11-09T11:00:00-07:00
 draft = false
 description = "3...2...1...Launch! Unnecessarily complicated button"
