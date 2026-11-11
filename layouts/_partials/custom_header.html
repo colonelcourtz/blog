@@ -45,34 +45,17 @@
         font-size: 18px;
         line-height: 1.3;
         letter-spacing: 0.06em;
-        font-family: var(--serif);
-        font-weight: 400;
-        color: #d8af5d;
+        
+        font-weight: 400;        
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
     }
     .shelf .spine {
         position: relative;
         border-radius: 5px 5px 0 0;
-        background-image:
-            linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-            url(/leather.avif),
-            linear-gradient(91deg, rgb(0 0 0), transparent 28%, rgba(255, 255, 255, 0.12) 48%, transparent 78%, rgb(0 0 0)),
-            repeating-linear-gradient(332deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 4px);
+     
         background-size: auto, 180px 180px, auto, auto;
-        background-blend-mode: normal, soft-light, soft-light, soft-light;
+        background-blend-mode: normal, soft-light, soft-light, soft-light;        
         box-shadow: inset -6px 0 0 rgb(0 0 0 / 31%), inset 2px 0 0 rgba(255, 255, 255, 0.12), 0 2px 3px rgb(0 0 0 / 0%);
-    }
-    .shelf .spine::after {
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-        background:
-            radial-gradient(ellipse at var(--light-x, 50%) var(--light-y, 25%), rgba(255, 231, 180, 0.28), transparent 60%),
-            radial-gradient(ellipse at calc(100% - var(--light-x, 50%)) calc(100% - var(--light-y, 25%)), rgba(0, 0, 0, 0.2), transparent 65%);
-        mix-blend-mode: soft-light;
-        content: "";
-        pointer-events: none;
-        transition: background-position 100ms ease-out;
     }
     .shelf .spine::before {
         position: absolute;
