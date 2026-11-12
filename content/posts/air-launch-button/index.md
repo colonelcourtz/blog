@@ -12,7 +12,7 @@ As a developer there comes a time when a project makes its transition from devel
 
 In this post I'd like to focus on the celebration aspect, and pretend the other bits don't happen. More specifically I'd like to focus on a little project I embarked upon to mark the occasion for the launch of our recent big project.
 
-A few weeks before the set launch date as a team we discussed what we might to do for the unveiling of our years long project on the world. Some mentioned food (a classic according to the wonderful Ologies podcast on [Party Psychology](https://www.alieward.com/ologies/partypsychology), others mentioned drink, then one offhand comment rose above the chatter for a second (I can't actually remember who said it), but _someone_ said "Wouldn't it be cool if we could press a big red button to launch it". 
+A few weeks before the set launch date as a team we discussed what we might to do for the unveiling of our years long project on the world. Some mentioned food (a classic according to the wonderful Ologies podcast on [Party Psychology](https://www.alieward.com/ologies/partypsychology)), others mentioned drink, then one offhand comment rose above the chatter for a second (I can't actually remember who said it), but _someone_ said "Wouldn't it be cool if we could press a big red button to launch it". 
 
 Well, that's all my brain needed to jump into action and dedicate all it's spare time and processing power to working on just that.
 
@@ -46,7 +46,7 @@ So I kept pulling the lever, sticking in prompt after prompt trying out differen
 
 I downloaded the MP3 and was ready to think about how I would get the full setup configured.
 
-I'd ordered a little DAC/amplifier module (a MAX98357). It takes the digital output from the Pico 2, converts it to analogue and amplifies the signal so I can attach a tiny 4 Ohm speaker.
+I'd ordered a little DAC/amplifier module (a MAX98357). It takes the digital output from the microcontroller (a Pico 2), converts it to analogue and amplifies the signal so I can attach a tiny 4 Ohm speaker.
 
 I then pulled out my trusty breadboard and got to wiring it all up with duponts and jumpers. The final was something like this IIRC:
 
