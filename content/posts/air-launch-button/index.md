@@ -103,7 +103,7 @@ Sometimes it's important to have a relic of the time, care and love your pour in
 
 But sometimes the making is enough. The thing itself has served its purpose, and there's no need to preserve it beyond that. The memories, the lessons learned and the joy of having made something are capable of surviving without the object itself.
 
-I have recently been reminded, by a colleague, of the tale of King Solomon and the ring he possessed inscribed with the words "This too shall pass", a reminder that neither our greatest triumphs nor our deepest troubles are permanent.
+I have recently been reminded, by a colleague and friend, of the tale of King Solomon and the ring he possessed inscribed with the words "This too shall pass", a reminder that neither our greatest triumphs nor our deepest troubles are permanent.
 
 I think its important to remember, particularly after years spent working towards a single moment. The frustrations eventually pass, but so too does the excitement of success. Perhaps we should not cling too tightly to either, but to appreciate them while they're here and enjoy the ride.
 
