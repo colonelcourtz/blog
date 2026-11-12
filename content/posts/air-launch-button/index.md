@@ -109,5 +109,5 @@ I think its important to remember, particularly after years spent working toward
 
 And if that appreciation happens to involve a chuppa-chups eraser from the 90s, a button from a car probably long been destroyed and a dollop of AI slop, then so be it.
 
-And here are the remains, as foretold, returned to the pile of junk from whence it came.
+And here lie the remains, as foretold, returned to the pile of junk from whence it came.
 ![Back To junk](back_to_junk.jpg)
