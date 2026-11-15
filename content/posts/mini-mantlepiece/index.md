@@ -15,7 +15,7 @@ Above our fireplace in the front-room of our 1890s Victorian house sits what loo
 
 Despite seeming like it could support the weight of a small car, this thing can barely support its own bulk, nevermind the candlesticks, plants, ceramics and other bits and bobs we keep on it on rotation.
 
-The wood was sourced from my father-in-law's enviable collection, having stood outside for what looked, judging by its condition, like decades, covered in a healthy layer of algae, lichen, moss and general detritus. After a probably far too brief period of drying out, a quick pass with the plane, however, revealed a stunning oak grain.
+The wood was sourced from my father-in-law's enviable collection, having stood outside for what looked, judging by its condition, like decades, covered in a healthy layer of algae, lichen, moss and general detritus. A probably far too brief period of drying out and a quick pass with the plane, however, revealed a stunning oak grain.
 
 Now here comes the real meat of this bodge. How to attach it to the wall.
 
