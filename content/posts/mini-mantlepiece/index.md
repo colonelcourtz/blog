@@ -15,17 +15,17 @@ Above our fireplace in the front-room of our 1890s Victorian house sits what loo
 
 Despite seeming like it could support the weight of a small car, this thing can barely support its own bulk, nevermind the candlesticks, plants, ceramics and other bits and bobs we keep on it on rotation.
 
-The wood was sourced from my father-in-law's enviable collection, having stood outside for what looked, judging by its condition, like decades, covered in a healthy layer of algae, lichen, moss and general detritus. A probably far too brief period of drying out and a quick pass with the plane, however, revealed a stunning oak grain.
+The wood was sourced from my father-in-law's enviable collection, having stood outside for what looked like decades, covered in a healthy layer of algae, lichen, moss and general detritus. We brought it home and after a probably far too brief period of drying out and a quick pass with the plane we revealed a thing unexpected beauty the beneath accumulated filth.
 
-Now here comes the real meat of this bodge. How to attach it to the wall.
+So far, so reasonable; so now here comes the real meat of this bodge. How to attach it to the wall?
 
-There are many good ways of attaching stuff to walls, and many bad. Some cost money, some are cheap, some are weak, some are strong, some are visible others are cleverly hidden. Some involve grabbing things from your basement and stubbornly shoehorning them into a purpose they was never intended for.
+There are many good ways of attaching stuff to walls, and many bad. Some cost money, some are cheap, some are strong, some are weak, some are visible others are cleverly hidden. Some involve grabbing things from your basement and stubbornly shoehorning them into a purpose they were never intended for.
 
-I chose the latter.
+I chose the latter of these options.
 
-So I grabbed 2 large carriage bolts, hacked off the ends, drilled two holes into the 2ft thick limestone chimney breast and matching holes in the back of my hunk of wood, then brutally hammered them together.
+I grabbed 2 large carriage bolts, hacked off the ends, drilled holes into the 2ft thick limestone chimney breast and matching ones in the back of my would-be mantelpiece, then brutally hammered until it sat flush with the wall.
 
-The result, a piece of wood attached to the wall. Not strong, not neat but enough that it allowed us to temporarily make a mark on our new house and make it feel more like a home with a mantelpiece. And just like many of my temporary solutions...here it has sat for the last 6 years.
+The result, a piece of wood attached to the chimney breast - by definition a mantelpiece. Not strong, not neat but enough that it allowed us to temporarily make a mark on our new house and make it feel more like a home, and importantly somewhere to put christmas and birthday cards. And just like many of my temporary solutions...here it has sat for the last 6 years, and continues to.
 
 In the back of my head I still plan to take make good of this bodge, and attach it in such a way it really could support the weight of a small car, but on the priority list of life this sits low.
 
@@ -36,5 +36,5 @@ If something has served its purpose for six years, was it really such a bad solu
 
 Perhaps there's a distinction between a solution being _good_ and being _good enough_. The trouble is knowing whether you've found that distinction or merely been fortunate enough not to discover it yet.
 
-Here's an old picture I found of it with a similarly bodged mirror hung above. The mirror, however, had a different fate and has since been replaced with a much more professional bought version.
+Here's an old picture I found of it, shortly after putting it up, with a similarly bodged mirror hung above. The mirror, however, had a different fate and has since been replaced with a much more professional *bought* version.
 ![Mantelpiece](mantelpiece.jpg)
