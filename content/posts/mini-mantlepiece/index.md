@@ -7,7 +7,7 @@ tags = ["mini",""]
 categories = ["mini"]
 +++
 
----
+
 This is a mini post, one of my brief accounts of insignificant undertakings, and the learnings along the way (if there are any).
 ---
 
